@@ -1,3 +1,4 @@
+package Tree;
 
 
 public class BSTree<Key extends Comparable<Key>,Value> {
@@ -104,13 +105,13 @@ public class BSTree<Key extends Comparable<Key>,Value> {
 	
 	public static void main(String[] args) {
 		BSTree<Integer,String> bst = new BSTree<Integer,String>();
-		bst.add(11301083, "ÕÅÖĞ»ª");
-		bst.add(11301081, "ÕÅÃô");
-		bst.add(15126231, "ÕÅÃô");
-		bst.add(11301079, "ÔøËÌ");
-		bst.add(15126131, "ÌïĞñ¸û");
-		bst.add(11301078, "Ñîâı");
-		bst.add(15126192, "¸µÈÍá½");
+		bst.add(11301083, "zzh");
+		bst.add(11301081, "zm");
+		bst.add(15126231, "zm");
+		bst.add(11301079, "zs");
+		bst.add(15126131, "txg");
+		bst.add(11301078, "yk");
+		bst.add(15126192, "frq");
 		
 		bst.print();
 		System.out.println("--------------");
